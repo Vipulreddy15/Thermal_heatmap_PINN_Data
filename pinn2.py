@@ -14,7 +14,6 @@ import scipy.sparse as sp
 import scipy.sparse.linalg as spla
 import matplotlib.pyplot as plt
 import os
-import json
 from math import ceil
 
 # --------------------------
@@ -302,4 +301,4 @@ def generate_dataset(out_dir="generated_chips", samples_per_profile=500):
 # --------------------------
 if __name__ == "__main__":
     # Example: 200 samples per profile -> 8 laptop + 3 mobile = 8*200 = 1600 images
-    generate_dataset(out_dir="generated_chips", samples_per_profile=200)
+    generate_dataset(out_dir="generated_chips", samples_per_profile=1)
